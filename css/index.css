@@ -1,0 +1,1046 @@
+body{
+	font-size:14px;
+	color:#333;
+	line-height: 26px;
+	font-family: "arial","Microsoft Yahei";
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+*{
+	padding:0px;
+	margin:0;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.inner{
+	width:1000px;
+	margin:0 auto;
+}
+
+
+/*header开始*/
+.header{
+
+	width:100%;
+	
+	height:77px;
+	margin:0 auto;
+}
+.header .inner{
+	width:1000px;
+	
+
+	margin:0 auto;
+	position:relative;
+}
+.header .inner h2 {
+	width:192px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:20px;
+	text-indent: -99em;
+	text-align: center;
+	background:url(../images/logo.png) no-repeat;
+}
+
+/*.header .inner span{
+	float:right;
+	width:300px;
+	
+}*/
+.header .inner .shuru{
+	width:300px;
+	height:30px;
+	border:1px solid #000;
+	position: relative;
+	top:28px;
+	left:200px;
+	border-radius: 5px;
+	padding-left:5px;
+
+}
+.header .inner i{
+	width:15px;
+	height:14px;
+	background:url(../images/search.png) no-repeat -40px -86px;
+	position: absolute;
+	top:36px;
+	left:474px;
+
+}
+
+.header .inner ul{
+	float:right;
+	width:508px;
+
+}
+/*.header .inner ul span{
+	float:right;
+	position:absolute;
+	left:216px;
+	top:26px;
+}*/
+.header .inner ul span.te{
+	width:14px;
+	height:14px;
+	background:url(../images/search.png) no-repeat -40px -56px;
+
+
+}
+.header .inner ul li{
+	float: right;
+	margin-left:30px;
+	padding-top:24px;
+	position:relative;
+	top:0px;
+	left:-237px;
+}
+.header .inner ul li a{
+	display: block;
+	text-align: center;
+	line-height: 28px;
+	font-size:14px;
+	position: relative;
+	top:-24px;
+	left:20px;
+
+}
+.header .inner .denglu{
+	position: absolute;
+	left:848px;
+	top:24px;
+	margin-left:20px;
+	text-align: center;
+	font-size:12px;
+	line-height: 30px;
+
+}
+.header .inner .denglu .cur{
+	background-color:#169AF3;
+}
+
+.header .inner .deng{
+	float:left;
+	border:1px solid #DBDBDB;
+	width:50px;
+	height:30px;
+	border-radius: 5px;
+
+
+	
+	
+
+}
+.header .inner .deng a{
+	color:#777777;
+}
+.header .inner .zhu{
+	margin-left:25px;
+	border:1px solid #DBDBDB;
+	float:left;
+	width:50px;
+	height:30px;
+	border-radius: 5px
+
+
+}
+.header .inner .zhu a{
+	color:#777777;
+}
+
+
+
+/*header结束*/
+
+/*nav开始*/
+.nav{
+	width:100%;
+	height:55px;
+	background-color:#2C323B;
+	
+
+}
+.nav .inner .no1 li{
+	list-style: none;
+
+}
+
+.nav .inner .no1 li a{
+	display: block;
+	width:93px;
+	height:56px;
+	float:left;
+	color:#DDDDDD;
+	text-align: center;
+	line-height: 56px;
+	font-size:14px;
+}
+.nav .inner .no1 li.teshu a{
+	background-color: #0C8ED9;
+}
+
+.nav .inner .no2{
+	float: right;
+}
+.nav .inner .no2 li{
+	list-style: none;
+	float: right;
+}
+.nav .inner .no2 li a{
+
+	float:right;
+	display: block;
+	width:93px;
+	height:56px;
+	color:#DDDDDD;
+    overflow: hidden;
+    text-align: center;
+	line-height: 40px;
+	font-size:14px;
+}
+.nav .inner .no2 li a::before{
+	content:"";
+	width:14px;
+	height:14px;
+	background:url(../images/sprite.png) no-repeat 0px -285px;
+	position: absolute;
+	left:1072px;
+	top:98px;
+}
+.nav .inner .no2 li a:nth-child(2)::before{
+	content:"";
+	background:url(../images/sprite.png) no-repeat 0px -158px;
+	
+
+}
+
+.nav .inner .no2 li a:nth-child(3)::before{
+	content:"";
+	background-position:0px -195px;
+	position: absolute;
+	left:900px;
+	top:98px;
+
+}
+/*nav结束*/
+
+
+/*banner开始*/
+.banner{
+	width:100%;
+	height:447px;
+	background:url(../images/20160713154957678313.jpg) no-repeat top center;
+	position: relative;
+}
+
+.banner .yinyin{
+	width:100%;
+	height:60px;
+	background-color:rgba(0,0,0,.2);
+	position: relative;
+	left:0px;
+	top:386px;
+	z-index: 5;
+
+}
+.banner .xiazai {
+	height:60px;
+	position: absolute;
+	left: 200px;
+	top:386px;
+
+
+}
+.banner .xiazai a{
+	display: block;
+	float:left;
+	width:100px;
+	height:60px;
+	text-align: center;
+	line-height: 60px;
+	color:#CDD9EB;
+	margin-left: 200px;
+
+
+
+
+}
+.banner .xiazai a::before{
+	content: "";
+	width:15px;
+	height:15px;
+	padding:0px 11px 25px 0px;
+	background:url(../images/pc.png) no-repeat;
+	position: absolute;
+    right:689px;
+	top:17px;
+	
+
+}
+.banner .xiazai a:nth-child(2)::before{
+	content: "";
+	width:15px;
+	height:15px;
+	background:url(../images/mac.png) no-repeat;
+	position: absolute;
+	left:463px;
+
+}
+.banner .xiazai a:nth-child(3)::before{
+	content: "";
+	width:15px;
+	height:15px;
+	background:url(../images/andriod.png) no-repeat;
+	position: absolute;
+	left:766px;
+	color:#CDD9EB;
+}
+
+/*按钮*/
+.anniu{
+
+}
+.banner .anniu a{
+	float:left;
+	position:absolute;
+	left:0px;
+	top:92px;
+	width:60px;
+	height:120px;
+	background:url(../images/sprite.png) no-repeat 0px -880px;
+	z-index: 5;
+	
+}
+
+.banner .anniu a.right{
+	right:0px;
+	position: absolute;
+	top:76px;
+	left:1264px;
+	background-position: 0px -1005px;
+}
+
+.banner .inner ul{
+	color:#fff;
+	position: absolute;
+	left:534px;
+	top:320px;
+
+}
+.banner .inner ul li{
+   
+	float:left;
+	width:8px;
+	height:8px;
+	margin-left:20px;
+	background-color:#8DB5F0;
+	border-radius: 5px;
+
+}
+.banner .inner ul li.teshu1{
+	width:11px;
+	height:11px;
+	background-color:#FFFFFF;
+}
+
+/*banner结束*/
+
+
+/*精选歌单开始*/
+.gedan{
+	width:1000px;
+	height: 388px;
+	margin:0 auto;
+	padding-top:20px;
+	position: relative;
+}
+/*左*/
+.gedan .inner .fla{
+	width:650px;
+	height:388px;
+    border:1px solid #eee;
+}
+
+.gedan .inner .fla h2{
+	float:left;
+	font-size:28px;
+	color:#555555;
+}
+.gedan .inner .fla h2 span{
+	font-size:28px;
+	color:#019BF3;
+}
+
+.gedan .inner .fla a{
+	float:right;
+	font-size:12px;
+	color:#999999;
+}
+
+.gedan .inner .fla .tu{
+	margin-top:62px;
+	width:650px;
+	height:326px;
+	
+}
+.gedan .inner .fla .tu .tu1{
+	background:url(../images/20181102125005507978.jpg) no-repeat top center;
+	background-size:324px 326px;
+	width:324px;
+	height:326px;
+
+}
+.gedan .inner .fla .tu .tu2{
+	background:url(../images/20181123144223845805.jpg);
+	background-size:160px 160px;
+	float:right;
+	width:160px;
+	height:160px;
+	
+    position: absolute;
+    left:330px;
+    top:83px;
+}
+.gedan .inner .fla .tu .tu3{
+	background:url(../images/20181114054303369313.jpg);
+	background-size:160px 160px;
+	float:right;
+	width:154px;
+	height:160px;
+	
+    position: absolute;
+    left:495px;
+    top:83px;
+}
+.gedan .inner .fla .tu .tu4{
+	background:url(../images/20181119202034885115.jpg);
+	background-size:154px 160px;
+	float:right;
+	width:154px;
+	height:160px;
+	
+    position: absolute;
+    left:495px;
+    top:248px;
+}
+.gedan .inner .fla .tu .tu5{
+    background:url(../images/20181123144223845805.jpg);
+    background-size:160px;
+    background-size: 160px;
+	float:right;
+	width:160px;
+	height:160px;
+	
+    position: absolute;
+    left:330px;
+    top:248px;
+}
+
+/*右*/
+.gedan .inner .fra{
+	width:320px;
+	height:388px;
+	float:right;
+    border:1px solid #eee;
+	position: absolute;
+	left:684px;
+	top:18px;
+}
+.gedan .inner .fra .text1 h2{
+	float:left;
+	font-size:28px;
+	color:#9A9A9A;
+
+}
+.gedan .inner .fra .text1 h2 span{
+	font-size:28px;
+	color:#009AF6;
+}
+.gedan .inner .fra .text1 a{
+	line-height: 1px;
+	font-size:12px;
+	float:right;
+	color:#999999;
+	padding-top:20px;
+}
+.gedan .inner .fra .hezi{
+	position: absolute;
+	left:0px;
+	top:61px;
+	width:320px;
+	height:326px;
+	
+}
+
+/*盒子1*/
+.gedan .inner .fra .hezi .hezi1{
+	width:320px;
+	height:98px;
+	background-color:#F6F6F6;
+
+}
+.gedan .inner .fra .hezi .hezi1 .pic{
+	background:url(../images/t1fhd4bxd_1rcvbvdk.jpg_240x240.jpg) no-repeat;
+	background-size: 99px 98px;
+	float:left;
+	width:99px;
+	height:98px;
+}
+.gedan .inner .fra .hezi .hezi1 .pic::before{
+	content: "";
+	width:44px;
+	height:44px;
+	background:url(../images/sprite.png) no-repeat 1px -442px;
+	position: absolute;
+	top:27px;
+	left:25px;
+}
+.gedan .inner .fra .hezi .hezi1 ul li a{
+	margin-left:10px;
+	color:#555555;
+
+
+}
+.gedan .inner .fra .hezi .hezi1 ul li.teshu{
+	font-weight: bold;
+}
+
+/*盒子2*/
+.gedan .inner .fra .hezi .hezi2{
+	width:320px;
+	height:98px;
+	background-color:#F6F6F6;
+	margin-top:15px;
+
+}
+.gedan .inner .fra .hezi .hezi2 .pic{
+	background:url(../images/t1m4h4bkkj1rcvbvdk.jpg_240x240.jpg) no-repeat;
+	background-size: 99px 98px;
+	float:left;
+	width:99px;
+	height:98px;
+}
+.gedan .inner .fra .hezi .hezi2 .pic::before{
+	content: "";
+	width:44px;
+	height:44px;
+	background:url(../images/sprite.png) no-repeat 1px -442px;
+	position: absolute;
+	top:27px;
+	left:25px;
+}
+.gedan .inner .fra .hezi .hezi2 ul li a{
+	margin-left:10px;
+	color:#555555;
+
+}
+.gedan .inner .fra .hezi .hezi2 ul li.teshu{
+	font-weight: bold;
+}
+
+/*盒子3*/
+.gedan .inner .fra .hezi .hezi3{
+	width:320px;
+	height:98px;
+	background-color:#F6F6F6;
+	margin-top:15px;
+
+
+
+}
+.gedan .inner .fra .hezi .hezi3 .pic{
+	background:url(../images/t1fpd4bkbg1rcvbvdk.jpg_240x240.jpg) no-repeat;
+	background-size: 99px 98px;
+	float:left;
+	width:99px;
+	height:98px;
+}
+.gedan .inner .fra .hezi .hezi3 .pic::before{
+	content: "";
+	width:44px;
+	height:44px;
+	background:url(../images/sprite.png) no-repeat 1px -442px;
+	position: absolute;
+	top:27px;
+	left:25px;
+}
+.gedan .inner .fra .hezi .hezi3 ul li a{
+	margin-left:10px;
+	color:#555555;
+
+}
+.gedan .inner .fra .hezi .hezi3 ul li.teshu{
+	font-weight: bold;
+}
+
+
+/*精选歌单结束*/
+
+
+.guanggao{
+	position: relative;
+	top:15px;
+	padding-top:20px;
+	width:1000px;
+	height:80px;
+	margin:0 auto;
+	background:url(../images/2345截图20181129163410.png) no-repeat;
+}
+
+/*新歌首发开始*/
+.xinge{
+	width:1000px;
+	height:368px;
+	margin:0 auto;
+	
+}
+.xinge .inner .flx{
+	width:649px;
+	height:368px;
+	border:1px solid #eee;
+
+
+}
+.xinge .inner .flx .ti h2{
+		float:left;
+	color:#555555;
+	font-size: 28px;
+
+}
+.xinge .inner .flx .ti h2 span{
+
+	font-size:28px;
+	color:#009AF4;
+}
+.xinge .inner .flx .ti .tex{
+	margin-left:25px;
+	font-size:14px;
+	color:#009AF4;
+}
+.xinge .inner .flx .ti a{
+	margin-left:25px;
+	font-size:14px;
+	color:#570087;
+}
+.xinge .inner .flx .ti .anniux{
+	width:90px;
+	height:30px;
+	border:1px solid #DBDBDB;
+	float:right;
+	text-align: center;
+	color:#555555;
+	padding-left:10px;
+	z-index: 5;
+}
+.xinge .inner .flx .ti .anniux::before{
+	content: "";
+	width:11px;
+	height:14px;
+	background:url(../images/sprite.png) no-repeat 0px -303px;
+	position: absolute;
+	left:714px;
+	top:1096px;
+	z-index: 10;
+
+}
+.xinge .inner .flx  ul {
+
+	display: block;
+	float:left;
+	font-size:14px;
+	color:#333333;
+	line-height: 35px;
+	padding-top:40px;
+	padding-left:20px;
+}
+.xinge .inner .flx ul li a{
+	color:#333333;
+}
+.xinge .inner .flx ul li a::after{
+	content: "";
+	width:21px;
+	height:12px;
+	background: url(../images/first.png) no-repeat;
+	position: absolute;
+
+
+}
+.xinge .inner .flx ul li span{
+     position: relative;
+     left:498px;
+     top:0px;
+     float:right;
+     color:#33338C;
+
+}
+.xinge .inner .flx .xx{
+	padding-top:310px;
+	padding-left:290px;
+
+}
+.xinge .inner .flx .xx a{
+	width:7px;
+	height:11px;
+	background:url(../images/icon_splice.png) no-repeat -510px 0px;
+	position:absolute;
+	left:432px;
+	top:1433px;
+}
+.xinge .inner .flx .xx .xxr{
+	background-position: -539px -120px;
+	position:absolute;
+	left:474px;
+	top:1432px;
+}
+
+/*右*/
+
+.xinge .inner .frx{
+	width:320px;
+	height:366px;
+	border:1px solid #eee;
+	float:right;
+	position: relative;
+	left:0px;
+	top:-368px;
+}
+.xinge .inner .frx .texr{
+	
+}
+.xinge .inner .frx .texr h2{
+	float:left;
+	font-size:28px;
+	color:#555555;
+}
+.xinge .inner .frx .texr h2 span{
+	font-size:28px;
+	color:#58B1F3;
+}
+.xinge .inner .frx .texr a{
+   float: right;
+
+}
+.xinge .inner .frx .tuku{
+	width:320px;
+	height:316px;
+}
+.xinge .inner .frx .pic1{
+	width:320px;
+	height:176px;
+	
+	margin-top:55px;
+	background:url(../images/20181128100140546907.jpg) no-repeat;
+	background-size: 320px 176px;
+
+}
+.xinge .inner .frx .pic2{
+	width:154px;
+	height:84px;
+	border:1px solid #333;
+	margin-top:15px;
+	float:left;
+	background:url(../images/20181128161019345905.jpg) no-repeat;
+    background-size:154px 84px;
+}
+.xinge .inner .frx .pic2 p{
+	line-height: 14px;
+    position: relative;
+    left:17px;
+    top:87px;
+}
+.xinge .inner .frx .pic2 p .te{
+	font-size:16px;
+	color:#444444;
+}
+
+.xinge .inner .frx .pic3{
+	width:154px;
+	height:84px;
+	border:1px solid #333;
+	margin-top:15px;
+	margin-left:15px;
+	float:right;
+	position: relative;
+	left:-0px;
+	top: -101px;
+	background:url(../images/20181127094529374323.jpg) no-repeat;
+	background-size:154px 84px;
+}
+.xinge .inner .frx .pic3 p{
+	line-height: 14px;
+    position: relative;
+    left:17px;
+    top:87px;
+}
+.xinge .inner .frx .pic3 p .te{
+	color:#444444;
+	font-size:16px;
+}
+
+/*新歌首发结束*/
+
+
+
+.guang{
+	width:1000px;
+	height:100px;
+	background:url(../images/2345截图20181129193226.png) no-repeat;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+
+/*热门电台开始*/
+.diantai{
+	height:385px;
+	width:1000px;
+	margin: 0 auto;
+}
+.diantai .inner .tai{
+	margin-top:20px;
+	width:650px;
+	height:368px;
+	border:1px solid #eee;
+
+}
+.diantai .inner .tai .txet h2{
+	font-size:28px;
+	color:#555555;
+	float:left;
+
+
+}
+.diantai .inner .tai .txet span{
+	font-size:28px;
+	color:#009AF2;
+}
+.diantai .inner .tai .txet a{
+	font-size:12px;
+	color:#555555;
+	float: right;
+}
+.diantai .inner .tai .tubiao ul{
+	position: relative;
+	left:-111px;
+	top:42px;
+}
+.diantai .inner .tai .tubiao ul .img1{
+	position:relative;
+	left:0px;
+	top:0px;
+}
+.diantai .inner .tai .tubiao ul span a{
+	position: relative;
+	left:142px;
+	top:0px;
+}
+
+
+
+
+.diantai .inner .tai .tubiao ul .img2{
+	position:relative;
+	left:244px;
+	top:-149px;
+}
+.diantai .inner .tai .tubiao ul span a.no1{
+	position: relative;
+	left:278px;
+	top:-150px;
+}
+.diantai .inner .tai .tubiao ul .img3{
+	position:relative;
+	left:244px;
+	top:-149px;
+}
+.diantai .inner .tai .tubiao ul span a.no2{
+	position: relative;
+	left:278px;
+	top:-150px;
+}
+
+.diantai .inner .tai .tubiao ul .img4{
+	position:relative;
+	left:372px;
+	top:-444px;
+}
+.diantai .inner .tai .tubiao ul span a.no3{
+	position: relative;
+	left:400px;
+	top:-444px;
+}
+
+.diantai .inner .tai .tubiao ul .img5{
+	position:relative;
+	left:372px;
+	top:-444px;
+}
+.diantai .inner .tai .tubiao ul span a.no5{
+	position: relative;
+	left:400px;
+	top:-444px;
+}
+
+.diantai .inner .tai .tubiao ul .img6{
+	position:relative;
+	left:503px;
+	top:-739px;
+}
+.diantai .inner .tai .tubiao ul span a.no6{
+	position: relative;
+	left:539px;
+	top:-739px;
+}
+
+.diantai .inner .tai .tubiao ul .img7{
+	position:relative;
+	left:503px;
+	top:-739px;
+}
+.diantai .inner .tai .tubiao ul span a.no7{
+	position: relative;
+	left:539px;
+	top:-739px;
+}
+
+.diantai .inner .tai .tubiao ul .img8{
+	position:relative;
+	left:637px;
+	top:-1033px;
+}
+.diantai .inner .tai .tubiao ul span a.no8{
+	position: relative;
+	left:665px;
+	top:-1033px;
+}
+
+.diantai .inner .tai .tubiao ul .img9{
+	position:relative;
+	left:637px;
+	top:-1033px;
+}
+.diantai .inner .tai .tubiao ul span a.no9{
+	position: relative;
+	left:665px;
+	top:-1033px;
+}
+.diantai .inner .tai .tubiao ul .img10{
+	position:relative;
+	left:118px;
+	top:-1181px;
+}
+.diantai .inner .tai .tubiao ul span a.no10{
+	position: relative;
+	left:148px;
+	top:-1181px;
+}
+
+/*歌手*/
+.diantai .inner .geshou{
+	width: 320px;
+	height:367px;
+	border:solid #eee 1px;
+	position: relative;
+	left:678px;
+	top:-370px;
+}
+.diantai .inner .geshou .txtg h2{
+	float:left;
+	font-size:28px;
+	color:#555555;
+
+}
+.diantai .inner .geshou .txtg span{
+	font-size:28px;
+	color:#009AF4;
+}
+.diantai .inner .geshou .txtg ol li a{
+	margin-left:5px;
+}
+.diantai .inner .geshou .txtg ol li a.ge{
+	color:#009AF4;
+}
+.diantai .inner .geshou .txtg a.te1{
+	position: relative;
+	top:-25px;
+	float:right;
+	font-size:14px;
+}
+
+.diantai .inner .geshou ul{
+	width:320px;
+	height:307px;
+	border:1px solid #eee;
+	position: relative;
+	top:33px;
+	left:0px;
+}
+.diantai .inner .geshou .ge0 ul li a.ge1{
+	float:left;
+	display: block;
+	width:158px;
+	height:160px;
+	border:1px solid pink;
+	background:url(../images/20181102125005507978.jpg) no-repeat;
+	background-size:158px 160px;
+}
+.diantai .inner .geshou .ge0 ul li a.ge2{
+	float:right;
+	display: block;
+	width:154px;
+	height:160px;
+	border:1px solid pink;
+	background:url(../images/20181123144223845805.jpg) no-repeat;
+	background-size:154px 160px;
+	position: relative;
+	top:-25px;
+	left:0px;
+}
+.diantai .inner .geshou .ge0 ul li a.ge3{
+	display: block;
+	width:100px;
+	height:100px;
+	background-size: 100px 100px;
+	background:url(../images/20181114054303369313.jpg) no-repeat;
+	position: relative;
+	top:172px;
+	left:1px;
+}
+
+.diantai .inner .geshou .ge0 ul li a.ge4{
+	display: block;
+	width:100px;
+	height:100px;
+	background-size: 100px 100px;
+	background:url(../images/20181123165155925004.jpg) no-repeat;
+	position: relative;
+	top:72px;
+	left:111px;
+}
+.diantai .inner .geshou .ge0 ul li a.ge5{
+	display: block;
+	width:100px;
+	height:100px;
+	background-size: 100px 100px;
+	background:url(../images/20181123144223845805.jpg) no-repeat top center;
+	position: relative;
+	top:-28px;
+	left:219px;
+}
+/*热门电台结束*/
+
+
+.gao{
+	width:1000px;
+	height:100px;
+	background:url(../images/2345截图20181129225159.png) no-repeat;
+	margin: 0 auto;
+}
+
